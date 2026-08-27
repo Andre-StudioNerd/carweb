@@ -6,7 +6,7 @@
     "build": "react-router build",
     "dev": "react-router dev",
     "start": "react-router-serve ./build/server/index.js",
-    "server": "json-server --watch database/server.json --port 3001",
+    "server": "json-server --watch db.json --port 3001",
     "typecheck": "react-router typegen && tsc"
   },
   "dependencies": {
