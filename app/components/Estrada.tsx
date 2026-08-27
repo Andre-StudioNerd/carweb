@@ -1,0 +1,52 @@
+export function Estrada() {
+  return (
+    <section className="relative w-full bg-secondary-pure overflow-hidden">
+      {/* Image Container */}
+      <div className="relative h-[300px] sm:h-[400px] lg:h-[500px]">
+        <img
+          src="/background.webp"
+          alt="Banner"
+          className="w-full h-full object-cover object-center"
+        />
+
+        {/* Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-r from-secondary-pure/80 via-secondary-pure/40 to-transparent" />
+      </div>
+
+      {/* Text Content */}
+      <div className="absolute inset-0 flex items-center">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+          <div className="max-w-xl lg:max-w-2xl p-6 rounded-lg">
+            <h1 className="font-heading text-2xl text-center mb-4">
+              <span className="bg-primary-pure text-neutral-white px-[10px] py-[4px] rounded inline-block">
+                Sua vida e a dos outros dependem das suas escolhas ao volante:
+                respeite os limites, mantenha a distância de segurança e dirija
+                com responsabilidade.
+              </span>
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      {/* Decorative Elements */}
+      <div className="absolute right-8 top-1/2 -translate-y-1/2 hidden lg:block">
+        <div className="flex gap-4">
+          <svg width="60" height="100" viewBox="0 0 60 100" fill="none">
+            <path
+              d="M0 50L30 25L30 75L0 50Z"
+              fill="currentColor"
+              className="text-primary-pure opacity-80"
+            />
+          </svg>
+          <svg width="60" height="100" viewBox="0 0 60 100" fill="none">
+            <path
+              d="M0 50L30 25L30 75L0 50Z"
+              fill="currentColor"
+              className="text-primary-pure opacity-60"
+            />
+          </svg>
+        </div>
+      </div>
+    </section>
+  );
+}
