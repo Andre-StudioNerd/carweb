@@ -1,87 +1,81 @@
-# Welcome to React Router!
+# 🚗 CarWeb
 
-A modern, production-ready template for building full-stack React applications using React Router.
+Site de locadora de carros desenvolvido com **React e Remix**, apresentando uma
+interface moderna, responsiva e intuitiva para divulgação de veículos e
+serviços.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+🔗 **Repositório:** https://github.com/Andre-StudioNerd/carweb
 
-## Features
+## 📖 Sobre o Projeto
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+O **CarWeb** é uma aplicação web desenvolvida para simular o site de uma empresa
+de locação de veículos. O projeto apresenta uma experiência de navegação simples
+e organizada, com foco em design, responsividade e boas práticas de
+desenvolvimento Front-End.
 
-## Getting Started
+## ✨ Funcionalidades
 
-### Installation
+- Catálogo de veículos
+- Apresentação dos veículos disponíveis
+- Informações sobre a locadora
+- Navegação entre páginas
+- Layout responsivo
+- Interface moderna e intuitiva
 
-Install the dependencies:
+## 🛠️ Tecnologias Utilizadas
+
+- React
+- Remix
+- JavaScript
+- HTML5
+- CSS3
+- Node.js
+- npm
+
+## 🚀 Como Executar
+
+Clone o repositório:
+
+```bash
+git clone https://github.com/Andre-StudioNerd/carweb.git
+```
+
+Acesse a pasta:
+
+```bash
+cd carweb
+```
+
+Instale as dependências:
 
 ```bash
 npm install
 ```
 
-### Development
-
-Start the development server with HMR:
+Execute o projeto:
 
 ```bash
 npm run dev
 ```
 
-Your application will be available at `http://localhost:5173`.
-
-## Building for Production
-
-Create a production build:
+Para gerar a versão de produção:
 
 ```bash
 npm run build
 ```
 
-## Deployment
+## 🎯 Objetivo
 
-### Docker Deployment
+Projeto desenvolvido para praticar **React, Remix, componentização,
+responsividade e criação de interfaces para aplicações comerciais**, utilizando
+como tema uma empresa de locação de veículos.
 
-To build and run using Docker:
+## 👨‍💻 Autor
 
-```bash
-docker build -t my-app .
+**André Luís Fernandes**
 
-# Run the container
-docker run -p 3000:3000 my-app
-```
+GitHub: https://github.com/Andre-StudioNerd
 
-The containerized application can be deployed to any platform that supports Docker, including:
+## 📄 Licença
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
+Este projeto está licenciado sob a licença MIT.
